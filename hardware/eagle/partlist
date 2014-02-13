@@ -1,0 +1,16 @@
+
+
+Partlist for project Schluecki
+
+2x TVS Diode Package: DO-214AA/DO-214AC
+recommended Part: SMBJ9.0CA (Littlefuse inc.)
+
+1x housing (female) for dynamixel connectors 
+recommended Part: 0050375043 (molex)
+
+4x crimps for housing
+recommended Part: 0039000160 (molex)
+
+1x intermediate connector between board and housing:
+recommended Part: 640457-4 (TE Connectivity)
+In case of trouble you can cut away that nipple on the connector.

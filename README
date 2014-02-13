@@ -1,0 +1,92 @@
+            README FOR THE SCHLUECKI HARD- AND SOFTWARE RELEASE
+            ===================================================
+
+          2014-02-13 FUmanoids' Schluecki Hardware Release v2014
+
+          Copyright (c) 2014 FUmanoids / Freie Universität Berlin
+                            All rights reserved
+
+        For full license information, please refer to file LICENCE
+
+Links:
+       FUmanoids Homepage                           http://www.fumanoids.de
+       FUmanoids on Facebook              http://www.facebook.com/fumanoids
+       FUmanoids on Twitter                    http://twitter.com/fumanoids
+
+       RoboCup Homepage                              http://www.robocup.org
+       RoboCup Humanoid League Homepage          http://www.tzi.de/humanoid
+
+
+This is part of the code/hardware release of team FUmanoids, version 2014. 
+
+Our goal by releasing the source code and CAD files of components of our robot
+is to provide some insight in humanoid soccer robot development, allowing other
+teams to learn from our code and possibly our mistakes, but also to hopefully
+encourage them to do the same and release their code as well. Though RoboCup is
+a competition, it's also about research and finally to achieve our common goal -
+to win against FIFA in 2050 ...
+
+
+ 1. PROJECT STRUCTURE
+----------------------
+
+The FUmanoids team has developed several software applications as well as our
+own robots. The latter was developed internally and equipped with both
+commercially available and self-built electronics.
+
+This release addresses only the custom-built overvoltage suppressing board 
+(named Schluecki) used in the FUmanoid robots.
+
+This project consists solely of CAD files, a partlist and an assembly guide.
+
+ 1.1 Overview of the package
+-----------------------------
+
+The project's root directory is "schluecki" (the board's name).
+
+The directories in the root directory are:
+
+ - hardware -- Here you can find the CAD files for the PCB.
+
+
+ 2. THE SCHLUECKI PROJECT
+------------------------- 
+
+Over the years we have experienced serious issues with the robot's cabling.
+At some point the isolation of some wires get damaged leading to a touching
+of the supply voltage wire and a data wire. The resulting overvoltage 
+might damage ICs connected to the data bus. In order to prevent damage
+the Schluecki board provides means to attach big TVS Diodes to the robots
+acting as a crowbar circuit in case of an overvoltage event. 
+
+The overvoltage can be detected externally and counteracting measures can
+be taken into account. Have a look in the PowerBoard project for an example:
+http://www.fumanoids.de/hardware/powerboard
+
+!!!!! This board does not guarantee any safety or robustness!            !!!!!
+!!!!! Consider this board more like a way to reduce the risk of damages. !!!!!
+
+ 2.1 Hardware
+-------------
+
+To view the schematics and layout of this project we recommend using "CadSoft
+EAGLE" which can be found at: http://www.cadsoftusa.com/
+
+ 2.2 Manufacturing
+------------------
+
+The PCB can be manufactured by most commonly known PCB services. A partlist can
+be found in the folder where the schematics reside. But please double check the 
+partlist since we cannot guarantee its completeness.
+
+We chose every component on the board to be manually solderable. All you need is
+a steady hand.
+
+ 3. CONTACT
+-----------
+
+We'd love to receive feedback, please feel free to contact us by email
+at info@fumanoids.de. For information about our team and ongoing progress,
+follow us on https://www.facebook.com/fumanoids, https://twitter.com/fumanoids
+and http://www.fumanoids.de.
+

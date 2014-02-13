@@ -1,0 +1,46 @@
+         ASSEMBLY GUIDE FOR THE SCHLUECKI HARD- AND SOFTWARE RELEASE
+            ===================================================
+
+          2014-02-13 FUmanoids' Schluecki Hardware Release v2014
+
+          Copyright (c) 2014 FUmanoids / Freie Universität Berlin
+                            All rights reserved
+
+        For full license information, please refer to file LICENCE
+
+Links:
+       FUmanoids Homepage                           http://www.fumanoids.de
+       FUmanoids on Facebook              http://www.facebook.com/fumanoids
+       FUmanoids on Twitter                    http://twitter.com/fumanoids
+
+       RoboCup Homepage                              http://www.robocup.org
+       RoboCup Humanoid League Homepage          http://www.tzi.de/humanoid
+
+
+This is part of the code/hardware release of team FUmanoids, version 2014. 
+
+Our goal by releasing the source code and CAD files of components of our robot
+is to provide some insight in humanoid soccer robot development, allowing other
+teams to learn from our code and possibly our mistakes, but also to hopefully
+encourage them to do the same and release their code as well. Though RoboCup is
+a competition, it's also about research and finally to achieve our common goal -
+to win against FIFA in 2050 ...
+
+
+
+ 1. TVS DIODES
+--------------
+
+ Solder the TVS Diodes to the appropriate locations (see CAD files)
+ 
+ 2. CONNECTOR
+------------- 
+
+ Solder the rectangular intermediate connector part to the board (nipple up).
+ Attach the crimps to the free hanging metal pieces of the intermediate 
+ connector. Best use a clamp to attach the crimps. To fix them in position use
+ solder. Keep in mind that the crimps must be attached in an orientation 
+ matching your desired orientation of the housing!
+ Finally attach the housing to the crimps and double check for broken 
+ connections.
+
